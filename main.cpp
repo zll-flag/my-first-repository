@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-class complex_num
+/*class complex_num
 {
 	private:
 		double real,image;
@@ -22,7 +22,7 @@ double operator!(complex_num A)
 	sum=sqrt(A.real*A.real+A.image*A.image);
 	return sum;
 }
-/*complex_num operator ~(complex_num B)
+complex_num operator ~(complex_num B)
 {
 	complex_num A;
 	A. real=B.real;
